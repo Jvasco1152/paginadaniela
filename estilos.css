@@ -1,0 +1,182 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.header{
+    position: relative;
+}
+.header .container{
+    position: relative;
+}
+
+.container .titulo{
+    margin-top: 3%
+}
+
+.header .logo img{
+    border-radius: 100%;
+    display: block;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 30px;    
+    position: center;
+}
+
+/****NAV****/
+
+
+
+  nav{
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    margin-bottom: -700px;
+
+  }
+
+  nav ul{
+    float: left;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color:black;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #ffffff;
+    transition: .5s;
+    z-index: 1;
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color: #791e81;
+  }
+  nav ul ul{
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul{
+    top: 495px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  nav ul ul li{
+    width: 200px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+    z-index: 1;
+  }
+  
+  
+  
+
+
+  section{
+    background: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+
+
+
+
+
+.container li.active a{
+    background: #fc00ff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.container li.produ a{
+    background: #45b649;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.container ul li ul{
+    display: none;
+}
+
+
+.banner .container img{
+    position: center;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+
+.fa-facebook{
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 400%;
+    margin-right: 30px;
+}
+.fa-instagram{
+    font-size: 400%;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+
+.fa-recycle{
+    font-size: 400%;
+    background: #373B44;  /* fallback for old browsers */
+    background: transparent; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(82, 85, 82);
+    margin-left: 120px;
+    
+}
+
+.fa-hand-holding-usd{
+    font-size: 400%;
+    color: rgb(82, 85, 82);
+    background: transparent;
+    margin-left: 120px;
+}
+.fa-chart-bar{
+    font-size: 400%;
+    color: rgb(82, 85, 82);
+    background: transparent;
+    margin-left: 120px;
+}
+
+.boxc{
+    box-sizing: border-box;
+}
